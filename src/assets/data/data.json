@@ -1,0 +1,88 @@
+{
+	"college1": {
+		"profile": {
+			"college_name": "Tshwane North College",
+			"contact_person": {
+				"name": "Samantha Bones",
+				"title": "Mrs",
+				"position": "Administrator"
+			},
+			"contact_person2": {
+				"name": "Sam Noko",
+				"title": "Mr",
+				"position": "Administrator"
+			}
+		},
+		"contact": {
+			"city": "Pretoria",
+			"address": "Kgosi Mampuru St & Pretorius Street, Pretoria Central, Pretoria, 0001",
+			"province": "Gauteng",
+			"telephone": "012 401 1727",
+			"fax": "012 401 0988",
+			"email1": {
+				"email_adrress": "sam@tnc.ac.za"
+			},
+			"email2": {
+				"email_adrress": "sam@tnc.ac.za"
+			},
+			"website": "https://www.tnc.edu.za/",
+			"postal": "Kgosi Mampuru St & Pretorius Street, Pretoria Central, Pretoria, 0001"
+		},
+		"reg_num": "2001/HE07/006",
+		"qualification1": {
+			"qualification_name": "National Certificate",
+			"nqf_level": 6,
+			"credit": 360,
+			"type": "Contact Mode"
+		},
+		"qualification2": {
+			"qualification_name": "Higher Certificate",
+			"nqf_level": 7,
+			"credit": 160,
+			"type": "Contact Mode"
+		}
+	},
+	"college2": {
+		"profile": {
+			"college_name": "Tshwane South College",
+			"contact_person": {
+				"name": "Wendy Kgalema",
+				"title": "Mrs",
+				"position": "Administrator"
+			},
+			"contact_person2": {
+				"name": "Sam Noko",
+				"title": "Mr",
+				"position": "Administrator"
+			}
+		},
+		"contact": {
+			"city": "Pretoria",
+			"address": "Kgosi Mampuru St & Pretorius Street, Pretoria Central, Pretoria, 0001",
+			"province": "Gauteng",
+			"telephone": "012 401 1727",
+			"fax": "012 401 0988",
+			"email1": {
+				"email_adrress": "admin@tsc.ac.za"
+			},
+			"email2": {
+				"email_adrress": "hr@tsc.ac.za"
+			},
+			"website": "https://www.tsc.edu.za/",
+			"postal": "Kgosi Mampuru St & Pretorius Street, Pretoria Central, Pretoria, 0001"
+		},
+		"reg_num": "2001/HE07/007",
+		"qualification1": {
+			"qualification_name": "National Certificate",
+			"nqf_level": 6,
+			"credit": 360,
+			"type": "Contact Mode"
+		},
+		"qualification2": {
+			"qualification_name": "Higher Certificate",
+			"nqf_level": 7,
+			"credit": 120,
+			"type": "Contact Mode"
+		}
+	}
+}

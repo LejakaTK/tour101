@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import {Router} from '@angular/router';
-
+import {ContentService } from '../service/content.service'; 
+import {DataAccessorService } from '../service/data-accessor.service'; 
 @Component({
   selector: 'app-tab1',
   templateUrl: 'tab1.page.html',
@@ -8,7 +9,7 @@ import {Router} from '@angular/router';
 })
 export class Tab1Page {
 
-  constructor(public router:Router) {}
+  constructor(public router:Router, public content:ContentService, public data:DataAccessorService) {}
   items = [
     'Pokémon Yellow',
     'Super Metroid',
@@ -28,11 +29,12 @@ export class Tab1Page {
     'GTA',
     'Halo'
   ];
+  dataList:any = this.data;
   itemSelected(item: string) {
-
-    console.log("Selected Item", item);
-    //this.router.navigateByUrl('displayer');
-    this.router.navigate(['displayer']);
+    console.log("******* ", this.dataList , "*******");
+    //this.router.navigate(['displayer']);
+    let x = this.data.getData();
+    console.log(x);
   }
 
 }
